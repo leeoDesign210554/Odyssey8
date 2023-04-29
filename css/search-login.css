@@ -1,0 +1,13 @@
+.trending-user-item-one + .trending-user-item-one{
+    margin-top: 16px;
+}
+.people-follow-new + .people-follow-new{
+    margin-left: 16px;
+}
+.people-follow-new .trending-user-item-one .trending-user-item-one_info-text span{
+    font-size: 14px;
+}
+.review-movie-center-title-cast-title h6{
+    text-transform: uppercase;
+    font-family: bold;
+}

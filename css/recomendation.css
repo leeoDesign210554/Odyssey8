@@ -1,0 +1,199 @@
+/* Import Google Font - Poppins */
+
+
+  .recomendation-right{
+    padding: 16px;
+    border-radius: 4px;
+    background-color: var(--liner-glass);
+    border: 1px solid var(--liner-glass);
+    color: var(--texxt-color);
+  }
+  header{
+      display: flex;
+      align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  header p{
+   font-family: bold;
+   width: 100%;
+   font-family: regular;
+   margin-right: 8px;
+  }
+  .price-input{
+    display: flex;
+    align-items: center;
+  }
+  .price-input .field{
+    display: flex;
+    align-items: center;
+  }
+  .field input{
+    padding: 8px 16px;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid var(--liner-glass);
+    -moz-appearance: textfield;
+  }
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  .price-input .separator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 8px;
+    width: 24px;
+    height: 2px;
+    color: var(--gray-color);
+    background-color: var(--gray-color);
+  }
+
+.input-min{
+    width:100%;
+    font-size: 16px;
+    color: var(--gray-color-2);
+    position: relative;
+}
+
+.input-max{
+    width:100%;
+    font-size: 16px;
+    color: var(--gray-color-2);
+}
+
+  .slider{
+    height: 5px;
+    position: relative;
+
+    border-radius: 5px;
+  }
+
+  .slider .progress{
+    height: 100%;
+    left: 0%;
+    right: 0%;
+    position: absolute;
+    border-radius: 5px;
+    background: var(--brand-color);
+  }
+  .range-input{
+    position: relative;
+  }
+
+
+  .range-input input{
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    top: -5px;
+    background: none;
+    pointer-events: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  input[type="range"]::-webkit-slider-thumb{
+    height: 16px; 
+    width: 16px;
+    border-radius: 50%;
+    background: var(--texxt-color);
+    pointer-events: auto;
+    -webkit-appearance: none;
+
+  }input[type="range"]::-moz-range-thumb{
+    height: 17px;
+    width: 17px;
+    border: none;
+    border-radius: 50%;
+    pointer-events: auto;
+    -moz-appearance: none;
+  }
+
+
+
+.recomendation-right-filter{
+    position: relative;
+}
+.recomendation-right-filter + .recomendation-right-filter{
+  margin-top: 8px;
+}
+  .sidenav{
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .sidenav-title{
+      font-size: 16px;
+      text-transform: uppercase;
+      font-family: bold;
+  }
+  .sidenav .dropdown-btn{
+background: transparent;
+outline: none;
+border: none;
+text-decoration: none;
+display: block;
+cursor: pointer;
+display: flex;
+align-items: center;
+  }
+
+  
+  .sidenav .dropdown-btn i{
+      font-size: 16px;
+      color: var(--texxt-color);
+      position: absolute;
+      right: 0;
+      top: 0;
+  }
+.dropdown-container{
+    display: none;
+display: flex;
+flex-direction: column;
+}
+  .dropdown-container a {
+      font-size: 16px;
+  }
+  .type{
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+  }
+ 
+  .type-two  +   .type-two{
+    margin-top: 8px;
+}
+  .type-two{
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+  }
+  .type p{
+      text-transform: capitalize;
+      margin-left: 8px;
+  }
+  .type .checkbox{
+      border-radius: 50%;
+  }
+
+ .type p{
+       overflow: hidden; 
+       text-overflow: ellipsis; 
+       -webkit-line-clamp: 1;
+       -webkit-box-orient: vertical;
+        display: -webkit-box;
+ }
+
+     .type input{
+         background-color: transparent;
+         border: 1px solid var(--gray-color);
+     }

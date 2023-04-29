@@ -1,0 +1,294 @@
+.view-movie{
+margin-bottom: 16px;
+}
+.view-movie h6{
+    text-transform: uppercase;
+    font-family: bold;
+}
+.view-movie-title {
+    margin-bottom: 16px;
+    width:100%;
+    height: 432px;
+    background-image:  linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 62.24%),url(../img/poster/list-movie/poster-2.jpg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    position: relative;
+}
+.view-movie-title-item{
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+}
+.view-movie-title-item-top{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.imdb{
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+}
+.imdb img{
+height: 16px;
+width: auto;
+margin-right: 8px;
+}
+.view-movie-star{
+    display: flex;
+    align-items: center;
+}
+.view-movie-star i{
+    margin-right: 8px;
+}
+.view-movie-btn + .view-movie-btn{
+    margin-bottom: 8px;
+
+}
+.view-movie-btn-two + .view-movie-btn-two{
+    margin-left: 8px;
+}
+.view-movie-btn{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.view-movie-friend{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.view-movie-friend-star{
+    display: flex;
+    align-items: center;
+}
+.view-movie-friend-star i{
+margin-right: 6px;
+font-size: 16px;
+color: var(--brand-color);
+}
+.view-movie-choose{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    border-top: 1px solid var(--liner-glass);
+    border-bottom: 1px solid var(--liner-glass);
+}
+.view-movie-like-share{
+    background-color: var(--liner-glass);
+    margin-top: 8px;
+    padding: 16px;
+    border: 1px solid var(--liner-glass);
+}
+.view-movie-like-share .list-item span{
+    font-family: regular;
+    font-weight: 100;
+}
+.list-item-item{
+    display: flex;
+    align-items: center;
+}
+.list-item-item img{
+    width: 16px;
+    margin-right: 10px;
+}
+.list-item p{
+    color: var(--gray-color-2);
+}
+
+
+/* review-movie-center */
+
+.review-movie-center{
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+    color: var(--text-color);
+    overflow-y: scroll;
+}
+.review-movie-center h6{
+    font-family: bold;
+    text-transform: uppercase;
+    }
+.review-movie-center-top{
+    width: 100%;
+    background-color: var(--liner-glass);
+    border: 1px solid var(--liner-glass);
+    padding: 16px;
+}
+.review-movie-center-top + .review-movie-center-top{
+    margin-top: 8px;
+}
+.review-movie-center-title {
+    margin-bottom: 16px;
+}
+
+.review-movie-center-title-director-image{
+    display: flex;
+    align-items: center;
+}
+.review-movie-center-title-director-image img{
+height: 56px;
+width: auto;
+margin-right: 16px;
+border-radius: 4px;
+}
+.review-movie-center-title-director-name{
+    display: flex;
+    flex-direction: column;
+}
+.review-movie-center-title-director-name p{
+    font-family: medium;
+}
+.review-movie-center-title-director-name span{
+    font-size: 16px;
+ text-transform: capitalize;
+ font-family: regular;
+ font-weight: 100;
+ color: var(--gray-color-2);
+}
+.review-movie-center-title-cast{
+    margin-top: 24px;
+}
+.review-movie-center-title-cast img{
+    height: 56px;
+    width: 56px;
+    background-size: cover;
+margin-right: 16px;
+border-radius: 4px;
+}
+.review-movie-center-title-cast-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.review-movie-center-title-cast-item-left{
+    width: 48%;
+}
+.review-movie-center-title-cast-item-left-image{
+    display: flex;
+    align-items: center;
+}
+.review-movie-center-title-cast-item-left-image + .review-movie-center-title-cast-item-left-image{
+    margin-top: 24px;
+}
+.cast-name p{
+    font-family: medium;
+    text-transform: capitalize;
+}
+.cast-name span{
+    font-family: regular;
+    text-transform: capitalize;
+    font-weight: 100;
+    color: var(--gray-color-2);
+}
+.review-movie-center-title-cast-title{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.review-movie-center-title-cast-title a{
+    font-size: 16px;
+    color: var(--gray-color-2);
+    transition: .5s ease;
+}
+.review-movie-center-title-cast-title a:hover{
+  color: #F5F5F7;
+}
+.review-movie{
+    margin-top: 8px;
+    height: 4px;
+    border-radius: 4px;
+}
+.viewer-name-proo{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.review-movie-center-title-director-name{
+    margin-right: 8px;
+}
+.review-movie-center-title-director-name a{
+    font-size: 16px;
+    font-family: medium;
+}
+.pro-name{
+    display: flex;
+    align-items:center;
+}
+.pro-name a{
+    margin-right: 8px;
+    text-transform: capitalize;
+}
+
+.review-movie-center-viewer-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.viewer-star-vote{
+    display: flex;
+    align-items: center;
+}
+.viewer-star-vote p{
+    margin-right: 8px;
+    color: var(--texxt-color);
+}
+
+.viewer-star-vote-star i{
+    font-size: 14px;
+    color: var(--gray-color-2);
+transition: .5s ease;
+}
+.viewer-star-vote-star i:hover{
+    color: var(--brand-color);
+}
+.viewer-star-vote-star .fa-star-half-stroke{
+    color: var(--gray-color);
+}
+.text-note-viewer{
+    margin-top: 8px;
+    color: var(--gray-color-2);
+}
+
+.review-movie-center-title-director + .review-movie-center-title-director{
+    margin-top: 24px;
+}
+.review-movie-btn--pro .movie-btn-btn{
+    font-size: 12px;
+    font-family: medium;
+    padding: 2px 4px;
+}
+.review-movie-poster-left{
+    background: var(--liner-glass);
+    padding: 16px;
+    position: relative;
+    height: auto;
+}
+
+.link-view-traler{
+    position: absolute;
+    background-color:transparent;
+    width:100%;
+    height: 300px;
+    top: 0;
+    left: 0;
+}
+
+.comment-right-item-watch-brand-all{
+    width: 100%;
+    display: flex;
+}
+.comment-right-item-watch-brand + .comment-right-item-watch-brand{
+    margin-left: 40px;
+}
+.comment-right-item-watch-brand-all + .comment-right-item-watch-brand-all{
+    margin-top: 24px;
+}

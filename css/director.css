@@ -1,0 +1,36 @@
+.director-info{
+    width: 100%;
+    background-color: var(--liner-glass);
+    height: auto;
+    padding: 16px;
+    border-radius: 4px;
+    border: 1px solid var(--liner-glass);
+}
+.director-info img{
+    width: 64px;
+    border-radius: 4px;
+    margin-right: 16px;
+}
+.director-info-name-age p{
+    font-family: medium;
+}
+
+
+.director-info-name{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.director-info-name img{
+    width: 64px ;
+    height: 64px;
+    object-fit: cover;
+}
+.director-info-buttom{
+    display: flex;
+    flex-wrap: wrap;
+}
+.director-info-buttom-btn + .director-info-buttom-btn{
+    margin-bottom: 8px;
+    margin-right: 8px;
+}

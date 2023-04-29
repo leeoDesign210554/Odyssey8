@@ -1,0 +1,45 @@
+.genres-item-info-item{
+    width: 50%;
+    height: 64px;
+    padding: 16px 16px;
+    border-radius: 4px;
+    z-index: 1;
+}
+.genres-item-info-item + .genres-item-info-item{
+    margin-left: 16px; 
+}
+.genres-item-info-item:hover{
+    filter: brightness(1.2);
+}
+.glassmorphism{
+    backdrop-filter: blur(100px);
+    background-color: var(--liner-glass);
+    border-radius: 4px;
+    transition: .5s ease;
+}
+.glassmorphism:hover{
+    background-color: rgba(255, 255, 255, 0.15);
+}
+.card-genres{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--white-color);
+}
+.card-genres-top img{
+    width: 16px;
+    margin-right: 16px;
+}
+.card-genres-top p{
+    font-family: medium;
+    text-transform: capitalize;
+}
+.card-genres-top{
+    display: flex;
+    align-items: center;
+}
+.card-genres-bottom p{
+    color: var(--gray-color-2);
+    font-weight: 100;
+}

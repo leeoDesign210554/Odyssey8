@@ -1,0 +1,115 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 100vh;
+    background-color: transparent;
+}
+.login-back{
+    width: 592px;
+    background-color: var(--liner-glass);
+    padding: 16px;
+    border-radius: 4px;
+    position: relative;
+    backdrop-filter: blur(100px);
+}
+.close-login a i{
+    position: absolute;
+    right: 40px;
+    font-size: 20px;
+    background-color: var(--liner-glass);
+    padding: 8px 16px;
+    border-radius: 50%;
+    color: var(--gray-color-2);
+    transition: .5s ease;
+}
+.close-login a  i:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+  color: var(--texxt-color);
+}
+.login-back img{
+    width: 72px;
+}
+.login-item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 56px;
+}
+.login-item-title{
+    margin: 24px 40px ;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-item-title h6{
+    color: var(--gray-color-2);
+    font-family: regular;
+    margin-top: 4px;
+}
+.login-item-social{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login-item-social-face{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 60%;
+    padding: 14px 16px;
+    background-color: var(--liner-glass);
+    border-radius: 4px;
+    transition: .5s ease;
+}
+.login-item-social-face:hover{
+    filter: brightness(1.16);
+}
+
+.login-item-social-face + .login-item-social-face{
+ margin-top: 16px;
+}
+.login-item-social-face i{
+ color: var(--texxt-color);
+margin-right: 16px;
+padding-left: 35%;
+}
+.login-item-social-face p{
+    font-size: 16px;
+    font-family: medium;
+    line-height: 0;
+}
+.facebook{
+    background-color:rgba(24, 119, 241, 1);
+}
+.google{
+    background-color: rgba(215, 40, 42, 1);
+}
+.email{
+    background-color:var(--gray-color) ;
+    margin-bottom: 8px;
+}
+.guest-login{
+    font-size: 16px;
+color: var(--gray-color-2);
+margin-bottom: 40px;
+}
+.login-note{
+    display: flex;
+    align-items: flex-end;
+    font-size: 14px;
+ 
+}
+.login-note p{
+    margin-right: 4px;
+    color: var(--gray-color-2);
+}
+.login-note a{
+    color: var(--secondery-color);
+    font-family: medium;
+}

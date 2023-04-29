@@ -1,0 +1,649 @@
+
+
+
+.cover-view-traller {
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 75.07%, rgba(0, 0, 0, 0.1) 87.4%, #000000 100%), url(../img/cover/cover-21.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+.glass-background-traller{
+    width: 100%;
+}
+.traller-glassmorphism{
+    background-color: var(--liner-glass);
+    padding: 16px;
+    backdrop-filter: blur(100px);
+    position: absolute;
+    top: 528px;
+  left: 0;
+  right: 0;
+  border-radius: 4px;
+  color: var(--texxt-color);
+}
+.view-traller-left-poster {
+    position: relative;
+    width: 100%;
+    height: 560px;
+}
+.view-traller-left-poster img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.view-traller-left-choose{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+    bottom: 0;
+    background-color: var(--liner-glass);
+    backdrop-filter: blur(10px);
+}
+.view-traller-left-poster-choose-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--texxt-color);
+}
+.view-traller-left-poster-choose-icon:hover{
+    columns: var(--brand-color);
+}
+.view-traller-left-poster-choose-icon i{
+    color: var(--texxt-color);
+    margin-bottom: 4px;
+    font-size: 16px;
+}
+.view-traller-left-sig{
+    margin-top: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 8px 16px;
+    background-color: var(--liner-glass);
+    border-radius: 4px;
+    transition: .5s ease;
+
+}
+.view-traller-left-sig a{
+    font-size: 16px;
+    color: var(--texxt-color);
+}
+.view-traller-left-sig:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.line-traller{
+    width: 100%;
+    margin: 16px 0;
+    height: 2px;
+    background-color: var(--liner-glass);
+}
+.view-traller-left-story{
+    margin-bottom: 16px;
+}
+.view-traller-left-story h6{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: bold;
+    margin-bottom: 8px;
+}
+.view-traller-left-story p{
+    color: var(--gray-color-2);
+}
+.view-traller-left-info-item{
+    display: flex;
+    align-items: flex-start;
+}
+.view-traller-left-info-item + .view-traller-left-info-item{
+    margin-top: 8px;
+}
+.view-traller-left-info-item p:first-child{
+    width: 25%;
+    color: var(--gray-color-2)
+}
+.view-traller-left-info-item span{
+    width: 70%;
+    white-space: pre-wrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+     display: -webkit-box;
+     font-family: regular;
+}
+.view-traller-left-info-item-link a{
+    color: var(--secondery-color);
+}
+.view-traller-left-info-item-imdb{
+    display: flex;
+    align-items: center;
+}
+.view-traller-left-info-item-imdb img{
+    width: auto;
+    height: 16px;
+    margin-right: 8px;
+}
+.view-traller-left-info-item-imdb + .view-traller-left-info-item-imdb{
+    margin-left: 16px;
+}
+.view-traller-left-info-item-imdb i{
+    color:  #FFD661;
+    margin-right: 8px;
+ transition: .5s ease;
+}
+.view-traller-left-info-item-imdb i:hover{
+    color:  #ffc527;
+}
+.view-traller-left-info{
+    margin-bottom: 16px;
+}
+
+.view-traller-left-social{
+    display: flex;
+    align-items: center;
+}
+.view-traller-left-social .fa-brands {
+    background-color: var(--liner-glass);
+    padding: 8px 8px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.custom-select {
+    position: relative;
+  z-index: 1000;
+  }
+  
+  .custom-select select {
+    display: none; 
+  }
+  
+  .select-selected {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    font-family: regular;
+    color: var(--gray-color);
+  }
+  
+  /*style the arrow inside the select element:*/
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 20px;
+    right: 0;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: var(--gray-color-2) transparent transparent transparent;
+
+  }
+  
+  /*point the arrow upwards when the select box is open (active):*/
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent var(--gray-color-2) ;
+    top: 10px;
+  }
+  
+  /*style the items (options), including the selected item:*/
+  .select-items div,.select-selected {
+    color: var(--gray-color-2);
+    padding: 16px 8px;
+    border: 1px solid transparent;
+
+    cursor: pointer;
+    user-select: none;
+    font-family: regular;
+  }
+  
+  /*style items (options):*/
+  .select-items {
+    position: absolute;
+    background-color: var(--liner-glass);
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+backdrop-filter: blur(100px);
+  }
+  
+  /*hide the items when the select box is closed:*/
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(255, 255, 255, 0.085);
+  }
+
+.fom-three p{
+    color: var(--gray-color-2);
+}
+  .account-item{
+      display: flex;
+      align-items: center;
+  }
+  .account-item +   .account-item{
+      margin-top: 8px;
+  }
+  .account-item i{
+      font-size: 10px;
+      margin-right: 16px;
+  }
+  .account-item a{
+      color: var(--secondery-color);
+  }
+
+.view-traller-right-tittle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  .view-traller-right-tittle-name{
+      display: flex;
+      align-items: center;
+  }
+  .view-traller-right-tittle-name h5{
+      text-transform: uppercase;
+margin-right: 4px;
+  }
+  .view-traller-right-tittle-name h6{
+      color: var(--gray-color-2);
+      font-family: regular;
+      font-weight: 100;
+  }
+  .view-traller-right-watch-now h6{
+      margin: 24px 0 8px 0;
+      color: rgba(128, 128, 128, 1);
+      font-family: medium;
+      text-transform: uppercase;
+  }
+
+
+  .view-traller-right-filter-item-all{
+      display: flex;
+      align-items: center;
+  }
+  .view-traller-right-filter-item{
+      display: flex;
+      align-items: center;
+
+  }
+  .view-traller-right-filter-item i{
+    color:rgba(128, 128, 128, 1);
+    margin-right: 4px;
+  }
+  .view-traller-right-filter-item +   .view-traller-right-filter-item {
+    margin-left: 16px;
+  }
+.view-traller-right-filter{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--liner-glass);
+    height: 48px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.view-traller-right-filter-item-all-two-stream{
+    display: flex;
+    align-items: center;
+}
+
+
+.view-traller-right-filter-item-all-two-stream p{
+    color: var(--gray-color-2);
+}
+
+
+
+.rotage-text{
+background-color: var(--liner-glass);
+position: absolute;
+display: block;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 48px;
+width: 88px;
+
+}
+.rotage-text{
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    margin-top: 20px;
+    margin-left: -20px;
+  
+}
+
+
+.notyfy-traller-icon{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.notyfy-traller-icon-item {
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+ margin-right: 16px;
+ margin-top: 10px;
+}
+.notyfy-traller-icon-item i{
+    padding: 8px 10px;
+    font-size: 32px;
+    background-color: var(--brand-color);
+    border-radius: 4px;
+    transition: .5s ease;
+}
+.notyfy-traller-icon-item i:hover{
+filter: brightness(1.1);
+}
+.notyfy-traller-icon-item p{
+    font-size: 14px;
+    margin-top: 4px;
+    color: var(--gray-color-2);
+}
+.notyfy-traller-note{
+    width: 60%;
+    padding-top: 4px;
+    color: var(--texxt-color);
+}
+.line-traller-two{
+    width: 100%;
+    background-color: var(--liner-glass);
+    height: 2px;
+    margin-top: 19px;
+}
+.something-wrong{
+    margin-top: 4px;
+}
+.something-wrong a{
+    font-size: 12px;
+    color: var(--gray-color-2);
+}
+
+
+
+
+/* video */
+
+
+
+#fade {
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1001;
+    -moz-opacity: 0.8;
+    opacity: .80;
+    filter: alpha(opacity=80);
+  }
+  
+  #light {
+    display: none;
+    position: absolute;
+    max-height: 360px;
+    background: #FFF;
+    z-index: 1002;
+    overflow: visible;
+  }
+  
+  #boxclose {
+    cursor: pointer;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 0px;
+    padding: 11px 3px;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    z-index: 1002;
+    opacity: 0.9;
+  }
+  
+  .boxclose:before {
+      position: absolute;
+    content: "×";
+    top: -40px;
+    right: -40px;
+ font-size: 32px;
+  }
+  
+  #fade:hover ~ #boxclose {
+    display:none;
+  }
+  
+  .test:hover ~ .test2 {
+    display: none;
+  }
+
+  /* video */
+.video-box-open{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+
+.video{
+
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.video-traller-one + .video-traller-one{
+    margin-left: 8px;
+}
+.video-traller-one-item{
+    position: relative;
+    width: 100%;
+}
+.video-traller-one-item img{
+    width: 424px;
+    height: 232px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.video i{
+    top: 45%;
+    left: 50%;
+position: absolute;
+font-size: 32px;
+background-color: var(--liner-glass);
+padding: 8px 16px;
+backdrop-filter: blur(8px);
+color: var(--brand-color);
+border-radius: 8px;
+transition: .5s ease;
+}
+
+
+
+
+
+.cast-traller{
+    margin-top: 24px;
+}
+
+.cast-traller-title{
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.cast-traller-title h6{
+    font-family: medium;
+    font-size: 20px;
+    text-transform: uppercase;
+    color:rgba(128, 128, 128, 1);
+}
+
+
+.cast-traller-name{
+    display: flex;
+justify-content: flex-start;
+    width: 100%;
+    overflow: hidden;
+}
+.cast-traller-name-item + .cast-traller-name-item{
+    margin-left: 16px;
+}
+.cast-traller-name-item {
+    box-sizing: border-box;
+    width: 600px;
+}
+
+.cast-traller-name-item a{
+     color: var(--secondery-color);
+     display: inline-block;
+     white-space: nowrap
+}
+
+.cast-traller-name-item p{
+    width: auto;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: inline-block;
+    white-space: nowrap;
+    font-family: regular;
+    color: var(--gray-color-2);
+}
+
+.traller-poster-choose{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.traller-poster-choose-img + .traller-poster-choose-img{
+    margin-left: 8px;
+
+}
+.traller-poster-choose img{
+ width: 208px;
+ height: 280px;
+ object-fit: cover;
+}
+
+
+/* nav-bar */
+.navbar {
+    color: var(--texxt-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 68px;
+}
+
+.nav-bar {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background-color: var(--liner-glass);
+}
+
+.navbar-logo a{
+    display: flex;
+    align-items: center;
+}
+.navbar-logo img{
+width: 40px;
+margin-right: 8px;
+}
+.glass-background {
+    backdrop-filter: blur(100px);
+    width: 100%;
+
+}
+
+.navbar-item ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.navbar-item ul li a {
+    height: 100%;
+    font-size: 20px;    
+}
+
+.navbar-item ul li .active{
+    border-bottom: 4px solid var(--brand-color);
+    width: 100%;
+    border-radius: 4px;
+    transition: .5s ease;
+    padding-bottom: 20px;
+}
+
+
+
+
+.navbar-item_language {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-item_language a {
+    padding: 0 8px;
+}
+
+.navbar-item_arrow-icon {
+    width: 16px;
+}
+
+
+.social-bottom{
+    position: absolute;
+    bottom: 16px;
+}
+.swiper{
+    width: 100%;
+    overflow: hidden;
+}
+.swiper-slide{
+
+    display: flex;
+    flex-direction: column;
+    width: 128px !important;
+}
+.swiper-wrapper {
+    width: 100% !important;
+}
+element.style {
+    transition-duration: 0ms;
+    transform:     translate3d(0px, 0px, 0px) !important; 
+}
+
+
+.notyfy-traller-icon-item img{
+    height: 24px;
+    width: auto;
+}
+
+
+
+
+
+

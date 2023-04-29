@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odyssey</title>
+    <link rel="icon" href="../logo/logo-m.svg">
+    <link rel="stylesheet" href="../css/rate-two.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.0.0-web/css/all.min.css">
+
+</head>
+
+<body style="background-color: transparent;">
+    <div class=" rate-fuck container-fluid" style="background-color: var(--liner-glass);">
+        <div class="row">
+            <div class="rate-background col-xl-12 col-md-12 col-sm-12">
+                <div class="rate-two-title">
+                    <h6>Thank you <br>
+                        your post has been ceates</h6>
+                </div>
+                <div class="rate-two-top">
+                    <img src="../img/cover/eternal.jpg" alt="">
+                    <div class="rate-two-top-title">
+                        <h6>Eternals</h6>
+                        <p>2021</p>
+                        <div class="rate-two-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="rate-two-note"> Share it with a broader audience!</p>
+                <div class="social-media-rate">
+                    <div class="social-media-rate-item">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                    <div class="social-media-rate-item">
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="social-media-rate-item">
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="social-media-rate-item">
+                        <a href=""><i class="fa-regular fa-envelope"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="rate-two-link">
+                    <a
+                        href="https://unsplash.com/?fbclid=IwAR2jKOonYvFSOYOs378ZbK7Sk1EyUky2Nb7VqsuvikWI6Z867WcOwvo_FRw">https://unsplash.com/?fbclid=IwAR2jKOonYvFSOYOs378ZbK7Sk1EyUky2Nb7VqsuvikWI6Z867WcOwvo_FRw</a>
+                        <button type=""></button>
+                </div> -->
+                <div class="button-coppy">
+                    <input type="text"
+                        value="https://unsplash.com/?fbclid=IwAR2jKOonYvFSOYOs378ZbK7Sk1EyUky2Nb7VqsuvikWI6Z867WcOwvo_FRw"
+                        id="myInput">
+
+                    <div class="tooltip">
+                        <button onclick="myFunction()" onmouseout="outFunc()" class="btn-violet">
+                            <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+                            Copy Link
+                        </button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function myFunction() {
+            var copyText = document.getElementById("myInput");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+            navigator.clipboard.writeText(copyText.value);
+
+            var tooltip = document.getElementById("myTooltip");
+            tooltip.innerHTML = "Copied: " + copyText.value;
+        }
+
+        function outFunc() {
+            var tooltip = document.getElementById("myTooltip");
+            tooltip.innerHTML = "Copy to clipboard";
+        }
+    </script>
+
+    <!-- venobox -->
+
+    <script src="../venobox/venobox-rate-2.js"></script>
+    <!-- venobox -->
+    <!-- venobox -->
+    <script src="../javascript/jquery-3.6.0.min.js"></script>
+
+
+    <!-- venobox -->
+    <script>
+        new VenoBox({
+            titleattr: 'data-title'
+        });
+    </script>
+
+    <script>
+        new VenoBox({
+            selector: ".my-link"
+        });
+    </script>
+
+    <script>
+        new VenoBox({
+            selector: '.venobox'
+        });
+    </script>
+    <!-- venobox -->
+
+
+
+
+    <!-- glider -->
+    <script src="../javascript/glider.min.js"></script>
+
+    <script>
+        new Glider(document.querySelector('.glider'), {
+            slidesToScroll: 1,
+            slidesToShow: 4,
+            draggable: true,
+            dots: '.dots',
+            arrows: {
+                prev: '.glider-prev',
+                next: '.glider-next'
+            }
+        });
+    </script>
+
+
+
+
+
+
+    <!-- like -->
+
+    <script src="../javascript/dropdown-language.js"></script>
+
+    <!-- drop -->
+    <script>
+        /* When the user clicks on the button, 
+       toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- drop -->
+
+    <script src="../javascript/main.js"></script>
+    <!-- glider -->
+    <script src="../javascript/glider.min.js"></script>
+
+    <script>
+        new Glider(document.querySelector('.glider'), {
+            slidesToScroll: 1,
+            slidesToShow: 3.5,
+            draggable: true,
+            dots: '.dots',
+            arrows: {
+                prev: '.glider-prev',
+                next: '.glider-next'
+            }
+        });
+    </script>
+
+
+</body>
+
+</html>

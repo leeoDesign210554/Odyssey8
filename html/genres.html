@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odyssey</title>
+    <link rel="icon" href="../logo/logo-m.svg">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/setup.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.0.0-web/css/all.min.css">
+    <link rel="stylesheet" href="../bootstrap-5.1.3-dist/css/bootstrap-grid.css">
+
+    <!-- glider css -->
+    <link rel="stylesheet" href="../css/glider.min.css">
+    <link rel="stylesheet" href="../css/glider.min2.css">
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <script src="../javascript/swiper.min.js"></script>
+
+    <!-- collection -->
+    <link rel="stylesheet" href="../css/genres.css">
+    <link rel="stylesheet" href="../css/collection.css">
+
+    <!-- dropdow-language -->
+    <link rel="stylesheet" href="../css/dropdown-language.css">
+
+</head>
+
+<body>
+    <section class="all-section">
+        <!-- navbar -->
+        <div class=" container-fluid nav-bar-two">
+            <div class=" glass-background">
+                <div class="container">
+                    <div class="row">
+                        <div class="navbar col-md-12 col-sm-12">
+                            <div class="col-md-5 col-sm-4">
+                                <div class="navbar-logo">
+                                    <a href="../html/home.html">
+                                        <img src="../logo/logo-m.svg" alt="">
+                                        <h5>Odyssey </h5>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-7 col-sm-8">
+                                <div class="navbar-item">
+                                    <ul>
+                                        <li><a href="../html/search.html"><i
+                                                    class="fa-solid fa-magnifying-glass"></i></a>
+                                        </li>
+                                        <li><a href="../html/collections.html">Collections</a></li>
+
+                                        <!-- drop -->
+                                        <div class="dropdown ">
+                                            <button onclick="myFunction()" class="dropbtn">Get
+                                                App</button>
+                                            <div id="myDropdown" style="width: 150px;" class="dropdown-content">
+                                                <a class="footer-item-dowload-icon"
+                                                    href="https://www.apple.com/vn/ios/ios-15/">
+                                                    <img src="../icon/footer/icon-1.svg" alt="">
+                                                    <h6>IOS</h6>
+                                                </a>
+
+                                                <a class="footer-item-dowload-icon"
+                                                    href="https://www.android.com/intl/vi_vn/" style="margin: 0;">
+                                                    <img src="../icon/footer/icon-2.svg" alt="">
+                                                    <h6>Android</h6>
+                                                </a></a>
+                                            </div>
+                                        </div>
+                                        <!-- drop -->
+
+                                        <!-- <li><a href="" class="">Get App</a></li> -->
+                                        <li><a href="../html/genres.html" class="btn active">Genres</a></li>
+
+                                        <li>
+
+                                            <div class="navbar-item_language ">
+                                                <img src="../icon/globe.svg" alt="" class="navbar-item_arrow-icon">
+                                                <div class="custom-select blur-background" style="width:148px;">
+                                                    <select>
+                                                        <option value="0">Language</option>
+                                                        <option value="1">Vietnam</option>
+                                                        <option value="2">Korean</option>
+                                                        <option value="3">English</option>
+                                                        <option value="4">Japanese</option>
+                                                        <option value="5">French</option>
+                                                        <option value="6">indonesia</option>
+                                                        <option value="7">Fuck China</option>
+                                                        <option value="8">Portugal</option>
+                                                        <option value="9">Chile</option>
+                                                        <option value="10">German</option>
+                                                        <option value="11">Gujarati</option>
+                                                        <option value="12"> Spanish</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li><a href="../html/login.html">Login</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- navbar -->
+
+        <!-- collections -->
+        <div class="container collection">
+            <div class="row collection-item">
+                <div class="collection-item-search col-xl-3 col col-md-4 col-sm-12">
+                    <div class="collection-item-search-back">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="search">
+                    </div>
+                </div>
+                <div class="collection-item-info col-xl-6 col col-md-8 col-sm-12" style="height: 92vh;">
+                    <div class="collection-item-info-item-big">
+                        <!-- item-1 -->
+                        <div class="genres-item-info-item glassmorphism ">
+                            <a class="card-genres" href="../all-genrres-no-login/list-movie-genres-advanture.html">
+                                <div class="card-genres-top">
+                                    <img src="../icon/genres/genres-1.svg" alt="">
+                                    <p>Adventure</p>
+                                </div>
+                                <div class="card-genres-bottom ">
+                                    <p>56</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- item-2 -->
+                        <div class="genres-item-info-item glassmorphism ">
+                            <a class="card-genres" href="">
+                                <div class="card-genres-top">
+                                    <img src="../icon/genres/genres-2.svg" alt="">
+                                    <p>Action</p>
+                                </div>
+                                <div class="card-genres-bottom ">
+                                    <p>56</p>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="collection-item-info-item-big">
+                        <!-- item-3 -->
+                        <div class="genres-item-info-item glassmorphism ">
+                            <a class="card-genres" href="../all-genrres-no-login/list-movie-genres-documen.html">
+                                <div class="card-genres-top">
+                                    <img src="../icon/genres/genres-3.svg" alt="">
+                                    <p>documenstacy</p>
+                                </div>
+                                <div class="card-genres-bottom ">
+                                    <p>56</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- item-4 -->
+                        <div class="genres-item-info-item glassmorphism ">
+                            <a class="card-genres" href="">
+                                <div class="card-genres-top">
+                                    <img src="../icon/genres/genres-4.svg" alt="">
+                                    <p>Western</p>
+                                </div>
+                                <div class="card-genres-bottom ">
+                                    <p>44</p>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="collection-item-info-item-big">
+                        <!-- item-5 -->
+                        <div class="genres-item-info-item glassmorphism ">
+                            <a class="card-genres" href="">
+                                <div class="card-genres-top">
+                                    <img src="../icon/genres/genres-5.svg" alt="">
+                                    <p>Fantasy</p>
+                                </div>
+                                <div class="card-genres-bottom ">
+                                    <p>56</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- item-6 -->
+                        <div class="genres-item-info-item glassmorphism ">
+                            <a class="card-genres" href="">
+                                <div class="card-genres-top">
+                                    <img src="../icon/genres/genres-6.svg" alt="">
+                                    <p>Kids</p>
+                                </div>
+                                <div class="card-genres-bottom ">
+                                    <p>44</p>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="collection-item-info-item-big">
+                        <!-- item-7 -->
+                        <div class="genres-item-info-item glassmorphism ">
+                            <a class="card-genres" href="">
+                                <div class="card-genres-top">
+                                    <img src="../icon/genres/genres-7.svg" alt="">
+                                    <p>Family</p>
+                                </div>
+                                <div class="card-genres-bottom ">
+                                    <p>56</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- item-8 -->
+                        <div class="genres-item-info-item glassmorphism ">
+                            <a class="card-genres" href="">
+                                <div class="card-genres-top">
+                                    <img src="../icon/genres/genres-8.svg" alt="">
+                                    <p>History</p>
+                                </div>
+                                <div class="card-genres-bottom ">
+                                    <p>44</p>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="collection-item-info-item-big">
+                        <!-- item-9 -->
+                        <div class="genres-item-info-item glassmorphism ">
+                            <a class="card-genres" href="">
+                                <div class="card-genres-top">
+                                    <img src="../icon/genres/genres-9.svg" alt="">
+                                    <p>Drama</p>
+                                </div>
+                                <div class="card-genres-bottom ">
+                                    <p>56</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- item-10 -->
+                        <div class="genres-item-info-item glassmorphism ">
+                            <a class="card-genres" href="">
+                                <div class="card-genres-top">
+                                    <img src="../icon/genres/genres-10.svg" alt="">
+                                    <p>War</p>
+                                </div>
+                                <div class="card-genres-bottom ">
+                                    <p>44</p>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="collection-item-info-item-big">
+                        <!-- item-11 -->
+                        <div class="genres-item-info-item glassmorphism ">
+                            <a class="card-genres" href="">
+                                <div class="card-genres-top">
+                                    <img src="../icon/genres/genres-11.svg" alt="">
+                                    <p>Biographical</p>
+                                </div>
+                                <div class="card-genres-bottom ">
+                                    <p>46</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- item-12 -->
+                        <div class="genres-item-info-item glassmorphism ">
+                            <a class="card-genres" href="">
+                                <div class="card-genres-top">
+                                    <img src="../icon/genres/genres-12.svg" alt="">
+                                    <p>Romantic comedy</p>
+                                </div>
+                                <div class="card-genres-bottom ">
+                                    <p>44</p>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="collection-item-info-item-big">
+                        <!-- item-13 -->
+                        <div class="genres-item-info-item glassmorphism ">
+                            <a class="card-genres" href="">
+                                <div class="card-genres-top">
+                                    <img src="../icon/genres/genres-13.svg" alt="">
+                                    <p>Horror</p>
+                                </div>
+                                <div class="card-genres-bottom ">
+                                    <p>46</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- item-14 -->
+                        <div class="genres-item-info-item glassmorphism ">
+                            <a class="card-genres" href="">
+                                <div class="card-genres-top">
+                                    <img src="../icon/genres/genres-14.svg" alt="">
+                                    <p>comedy</p>
+                                </div>
+                                <div class="card-genres-bottom ">
+                                    <p>44</p>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="collection-item-info-item-big">
+                        <!-- item-15 -->
+                        <div class="genres-item-info-item glassmorphism ">
+                            <a class="card-genres" href="">
+                                <div class="card-genres-top">
+                                    <img src="../icon/genres/genres-15.svg" alt="">
+                                    <p>Music</p>
+                                </div>
+                                <div class="card-genres-bottom ">
+                                    <p>46</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- item-16 -->
+                        <div class="genres-item-info-item glassmorphism ">
+                            <a class="card-genres" href="">
+                                <div class="card-genres-top">
+                                    <img src="../icon/genres/genres-16.svg" alt="">
+                                    <p>Animation</p>
+                                </div>
+                                <div class="card-genres-bottom ">
+                                    <p>44</p>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="collection-item-info-item-big">
+                        <!-- item-17 -->
+                        <div class="genres-item-info-item glassmorphism ">
+                            <a class="card-genres" href="">
+                                <div class="card-genres-top">
+                                    <img src="../icon/genres/genres-17.svg" alt="">
+                                    <p>Sport</p>
+                                </div>
+                                <div class="card-genres-bottom ">
+                                    <p>46</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- item-18 -->
+                        <div class="genres-item-info-item glassmorphism ">
+                            <a class="card-genres" href="">
+                                <div class="card-genres-top">
+                                    <img src="../icon/genres/genres-18.svg" alt="">
+                                    <p>Crime</p>
+                                </div>
+                                <div class="card-genres-bottom ">
+                                    <p>44</p>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="collection-item-info-item-big">
+                        <!-- item-19 -->
+                        <div class="genres-item-info-item glassmorphism ">
+                            <a class="card-genres" href="">
+                                <div class="card-genres-top">
+                                    <img src="../icon/genres/genres-19.svg" alt="">
+                                    <p>Science fiction</p>
+                                </div>
+                                <div class="card-genres-bottom ">
+                                    <p>46</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- item-20 -->
+                        <div class="genres-item-info-item glassmorphism ">
+                            <a class="card-genres" href="">
+                                <div class="card-genres-top">
+                                    <img src="../icon/genres/genres-20.svg" alt="">
+                                    <p>mystery</p>
+                                </div>
+                                <div class="card-genres-bottom ">
+                                    <p>44</p>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="collection-item-info-item-big">
+                        <!-- item-21 -->
+                        <div class="genres-item-info-item glassmorphism ">
+                            <a class="card-genres" href="">
+                                <div class="card-genres-top">
+                                    <img src="../icon/genres/genres-21.svg" alt="">
+                                    <p>Thrillern</p>
+                                </div>
+                                <div class="card-genres-bottom ">
+                                    <p>46</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- item-22 -->
+                        <div class="genres-item-info-item glassmorphism ">
+                            <a class="card-genres" href="">
+                                <div class="card-genres-top">
+                                    <img src="../icon/genres/genres-22.svg" alt="">
+                                    <p>Sci-fi</p>
+                                </div>
+                                <div class="card-genres-bottom ">
+                                    <p>44</p>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="collection-item-info-item-big">
+                        <!-- item-23 -->
+                        <div class="genres-item-info-item glassmorphism ">
+                            <a class="card-genres" href="">
+                                <div class="card-genres-top">
+                                    <img src="../icon/genres/genres-23.svg" alt="">
+                                    <p>noir</p>
+                                </div>
+                                <div class="card-genres-bottom ">
+                                    <p>46</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- item-24 -->
+                        <div class="genres-item-info-item glassmorphism ">
+                            <a class="card-genres" href="">
+                                <div class="card-genres-top">
+                                    <img src="../icon/genres/genres-24.svg" alt="">
+                                    <p>Comedy action</p>
+                                </div>
+                                <div class="card-genres-bottom ">
+                                    <p>44</p>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+
+
+
+                </div>
+                <div class="collection-item-note col-xl-3 col-md-12 col-sm-12">
+                    <h6>SORT BY</h6>
+                    <div class="collection-item-note-radio">
+                        <div class="collection-item-note-radio-item">
+                            <p class="sort-by">Title</p>
+                            <input type="radio" checked="checked" name="radio" id="one" class="option-input checkbox">
+                        </div>
+
+                        <div class="collection-item-note-radio-item">
+                            <a style="color: var(--gray-color-2);" href="../html/genres-two.html">Number of films</a>
+                            <a href="genres-two.html"><input type="radio" name="radio" id="three"
+                                    class="option-input checkbox ">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="social-media media-selection">
+                        <a href=""> <i class="fa-brands fa-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""> <i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- footer-->
+
+
+
+
+
+
+
+
+
+    <!-- navbar -->
+
+
+
+    <script src="../javascript/main.js"></script>
+    <!-- glider -->
+    <script src="../javascript/glider.min.js"></script>
+
+    <script>
+        new Glider(document.querySelector('.glider'), {
+            slidesToScroll: 1,
+            slidesToShow: 3.5,
+            draggable: true,
+            dots: '.dots',
+            arrows: {
+                prev: '.glider-prev',
+                next: '.glider-next'
+            }
+        });
+    </script>
+
+    <!-- like -->
+
+    <script src="../javascript/dropdown-language.js"></script>
+
+    <!-- drop -->
+    <script>
+        /* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- drop -->
+
+
+
+</body>
+
+</html>

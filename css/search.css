@@ -1,0 +1,35 @@
+.genress-search-item {
+    background-color: var(--liner-glass);
+    padding: 16px;
+    border: 1px solid var(--liner-glass);
+    color: var(--texxt-color);
+}
+.genress-search-item +.genress-search-item{
+    margin-top: 8px;
+}
+.genress-search-title{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.genress-search-title p{
+    font-family: bold;
+    font-size: 20px   ;
+}
+.genress-search-title a{
+    font-family: regular;
+    color: var(--gray-color-2);
+transition: .5s ease;
+}
+.genress-search-title a:hover{
+    color: var(--texxt-color);
+}
+.genress-search {
+    overflow-y: scroll;
+    height:90vh;
+}
+
+.feed-movie-right-title h6{
+    text-transform: uppercase;
+}
